@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px;
+    
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  .left-container {
+    flex: 1;
+  }
+  
+  .right-container {
+    flex: 1;
+    text-align: right;
+  }  
+
+
+
+  /* CompanyInfo.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+.left-div {
+  flex-basis: 60%
+  
+}
+
+.right-div {
+  border: 1px solid;
+  border-radius: 10px;
+  flex-basis: 40%;
+}
+
+.tab-container {
+  
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+/* Home.css */
+
+.home-container {
+  width: 100%;
+ 
+}
+
+.user-details,
+.bank-details
+ {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bank-details {
+  position: relative;
+}
+
+.account {
+  margin-bottom: 20px;
+}
+
+.add-account-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.actions{
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+     
+}
+.actions button {
+  margin-right: 10px;
+   display: inline-block;
+}
+
+
