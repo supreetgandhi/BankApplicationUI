@@ -5,21 +5,9 @@ const API_URL = 'http://localhost:8085/api/users';
 
 export const registerUser = async (userData) => {
   try {
-    // const response = await fetch(`${API_URL}/createUser`, {
-    //   method: 'POST',
-    //   credentials: 'include',
-    //   headers: {
-    //     'Content-Type': 'text/plain',
-    //     'Access-Control-Allow-Origin': '*',
-    //     'Access-Control-Allow-Credentials': 'true',
-    //     'Authorization': 'Basic ' + btoa(this.state.deviceSettings.userName + ":" + this.state.deviceSettings.password),
-    //   },
-    //   body: JSON.stringify(userData),
-    // }).then(result => console.log('success====:', result))
-    // .catch(error => console.log('error============:', error));
-
     
     console.log("The user data is :"+ userData);
+    debugger;
     const response = 
     createUser(userData).then((response) => {
       console.log(response.data);

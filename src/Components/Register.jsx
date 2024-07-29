@@ -20,10 +20,10 @@ const Register = () => {
   const [nationality, setNationality] = useState('');
  
   const register = {
-    username: username,
+    userId: username,
     password: password,
     emailId: email,
-    contactNumber: phoneNumber,
+    contactNo: phoneNumber,
     userProfileDto: {
       firstName: firstName,
       lastName: lastName,
